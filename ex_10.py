@@ -1,0 +1,7 @@
+number = input('Введите номер рейса:')
+name_rus = input('Введите название авиакомпании на русском:')
+name_eng = input('Enter the name of aviacompany in English:')
+city_rus = input('Введите город прилета на русском:')
+city_eng = input('Enter the name of city where are you flying to on English:')
+print('Заканчивается подадка на рейс', number, 'авиакомпании', name_rus, 'до', city_rus)
+print('This is the final boarding call for', name_eng, 'flight',number, 'to', city_eng)
